@@ -12,8 +12,9 @@ rule.second = times;
 
 var c=0;
 
-var j = schedule.scheduleJob(rule, function(){
+var j = schedule.scheduleJob("*/1 * * * *", function(){
     c++;
-    console.log(c);
+   console.log(new Date()); 
+   console.log(c);
 });
 

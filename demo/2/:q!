@@ -1,0 +1,4 @@
+FROM hujb2000/schedulerdemo:0.0.1
+
+CMD ["node","timer_schedule.js"]
+
